@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Tech Hub 2.0</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #0f2027;
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #1b1b1b;
+    }
+
+    header h1 {
+      color: #00d2ff;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #ffffff0a;
+      border-radius: 1rem;
+      box-shadow: 0 0 20px #00000040;
+    }
+
+    .container h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #00ffcc;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input, textarea {
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: none;
+      border-radius: 8px;
+      background: #222;
+      color: #fff;
+      font-size: 1rem;
+    }
+
+    input::placeholder, textarea::placeholder {
+      color: #aaa;
+    }
+
+    button {
+      background: #00d2ff;
+      color: #000;
+      padding: 0.8rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #fff;
+      color: #00d2ff;
+    }
+
+    .social {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .social a {
+      margin: 0 1rem;
+      color: #00d2ff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #111;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+
+      .social a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📞 Contact Manish Aryal</h1>
+    <p>Have a question, project idea or feedback? Let's talk!</p>
+  </header>
+
+  <div class="container">
+    <h2>Send a Message</h2>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="social">
+      <p>Or reach out via:</p>
+      <a href="#">📧 Email</a>
+      <a href="#">💬 Messenger</a>
+      <a href="#">🔗 LinkedIn</a>
+      <a href="#">🐱 GitHub</a>
+    </div>
+  </div>
+
+  <footer>
+    Designed with ❤️ by Manish Aryal | Tech Hub 2.0 | Nepal 🇳🇵
+  </footer>
+
+</body>
+</html>
