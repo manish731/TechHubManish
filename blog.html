@@ -5,95 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Blog - Tech Hub 2.0</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: #111;
-      color: #fff;
-    }
-
-    header {
-      text-align: center;
-      padding: 2rem;
-      background: #1c1c1c;
-    }
-
-    header h1 {
-      color: #00d2ff;
-    }
-
-    .blog-list {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
-    }
-
-    .post {
-      background: #ffffff10;
-      padding: 1.5rem;
-      border-radius: 1rem;
-      margin-bottom: 1.5rem;
-      border-left: 5px solid #00d2ff;
-      transition: transform 0.2s ease;
-    }
-
-    .post:hover {
-      transform: scale(1.01);
-      background: #ffffff15;
-    }
-
-    .post h2 {
-      margin: 0;
-      color: #00ffcc;
-    }
-
-    .post small {
-      color: #aaa;
-    }
-
-    .post p {
-      margin: 1rem 0 0;
-    }
-
-    footer {
-      text-align: center;
-      padding: 2rem;
-      background: #0c0c0c;
-      font-size: 0.9rem;
-    }
-  </style>
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="notes.html">Notes</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="blog.html" class="active">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
   <header>
     <h1>📝 Manish's Blog</h1>
     <p>Tips, Thoughts & Tech Tutorials</p>
   </header>
 
-  <div class="blog-list">
-    <div class="post">
-      <h2>📌 How I Built Tech Hub 2.0</h2>
-      <small>Published: 2082-04-10</small>
-      <p>Here’s how I used HTML, GitHub, Cloudflare and GPT to make an educational portal from scratch!</p>
-    </div>
-
-    <div class="post">
-      <h2>⚡ Top 5 Python Projects for BIM Students</h2>
-      <small>Published: 2082-04-07</small>
-      <p>Discover beginner-to-advanced Python projects like face recognition, hand gestures, and more.</p>
-    </div>
-
-    <div class="post">
-      <h2>📚 BIM Study Routine – Semester 4</h2>
-      <small>Published: 2082-04-01</small>
-      <p>Want to be productive in Jestha to Shrawan? Here’s how I study 6 subjects in 3 hours/day.</p>
-    </div>
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Search posts...">
   </div>
+
+  <div class="blog-list" id="blogList">Loading posts...</div>
 
   <footer>
     © 2082 Manish Aryal | Tech Hub 2.0 Blog | Learn. Build. Inspire. 🚀
   </footer>
 
+  <button id="themeToggle">🌙</button>
+  <script src="assets/blog.js"></script>
 </body>
 </html>
+
