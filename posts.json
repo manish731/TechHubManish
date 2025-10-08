@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "📌 How I Built Tech Hub 2.0",
+    "date": "2082-04-10",
+    "summary": "Here’s how I used HTML, GitHub, Cloudflare and GPT to make an educational portal from scratch!",
+    "content": "<p>Tech Hub 2.0 was built using pure HTML, TailwindCSS, and a bit of JavaScript. Hosting was done on GitHub Pages, with a custom domain connected via Cloudflare DNS. The goal was to create a learning hub for BIM and IT students with high-quality resources.</p><p>For SEO, I focused on meta tags, semantic HTML, and performance optimization. The entire website is responsive and lightweight, loading in under 1 second on 4G.</p>"
+  },
+  {
+    "id": 2,
+    "title": "⚡ Top 5 Python Projects for BIM Students",
+    "date": "2082-04-07",
+    "summary": "Discover beginner-to-advanced Python projects like face recognition, hand gestures, and more.",
+    "content": "<ul><li>Face Recognition Attendance System</li><li>Hand Gesture Controller</li><li>Voice Assistant using Vosk</li><li>Object Detection with YOLOv8</li><li>Portfolio Website with Flask</li></ul>"
+  },
+  {
+    "id": 3,
+    "title": "📚 BIM Study Routine – Semester 4",
+    "date": "2082-04-01",
+    "summary": "Want to be productive in Jestha to Shrawan? Here’s how I study 6 subjects in 3 hours/day.",
+    "content": "<p>I divide my 3-hour evening study time into 6 subjects — 30 minutes each. I use Pomodoro (25 min focus + 5 min break) and weekly revisions on Sunday. Mock tests every 2 weeks help track progress.</p>"
+  }
+]
