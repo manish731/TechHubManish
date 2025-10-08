@@ -1,0 +1,17 @@
+.read-more {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #00d2ff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.read-more:hover {
+  color: #00ffcc;
+}
+
+.post-detail {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem;
+}
